@@ -1,7 +1,7 @@
 {
-  "name": "apontador-app",
-  "version": "0.0.5",
-  "description": "Test app to apontador in local machine",
+  "name": "injetador",
+  "version": "0.0.6",
+  "description": "Injects stuff into the browser",
   "author": {
     "name": "Eder Eduardo",
     "email": "eder.esilva@gmail.com"
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eder/apontador_app"
+    "url": "https://github.com/cirocosta/injetador"
   },
   "main":"src/app.js",
   "scripts": {
