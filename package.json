@@ -1,16 +1,16 @@
 {
   "name": "injetador",
-  "version": "0.0.6",
-  "description": "Injects stuff into the browser",
+  "version": "0.0.1",
+  "description": "Reloads browser on changes and also injects stuff",
   "author": {
-    "name": "Eder Eduardo",
-    "email": "eder.esilva@gmail.com"
-  },
-  "contributors": [
-    {
       "name": "Ciro S. Costa",
       "email": "ciro9758@gmail.com",
       "url": "https://github.com/cirocosta"
+  },
+  "contributors": [
+    {
+      "name": "Eder Eduardo",
+      "email": "eder.esilva@gmail.com"
     }
   ],
   "license": "MIT",
@@ -18,9 +18,17 @@
     "type": "git",
     "url": "https://github.com/cirocosta/injetador"
   },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "preferGlobal": true,
+  "directories":{
+    "bin": "./bin"
+  },
   "main": "src/app.js",
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha tests",
+    "start": "node src/app.js"
   },
   "dependencies": {
     "express": "~3.4.8",

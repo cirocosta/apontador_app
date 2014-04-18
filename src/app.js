@@ -58,7 +58,8 @@ if (args.length) {
       break;
 
     default:
-      console.log("Invalid arg.");
+      console.log("Invalid argument.");
+      console.log("Only --[dir|watch|jsfile|cssfile] are valid args.");
       process.exit(1);
     }
   });
@@ -122,7 +123,7 @@ if (answers.dir) {
 // Server Initialization
 
 server = http.createServer(app).listen(app.get('port'), function () {
-  console.log('Express server listening on port ' + app.get('port'));
+  console.log('Injetador server is now running on port ' + app.get('port'));
 });
 
 
