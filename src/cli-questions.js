@@ -21,7 +21,7 @@ function getResponseFromUser () {
   response.webpage = prompt(ini + 'Target webpage: '.bold);
   var webpage = url.parse(response.webpage);
 
-  if (webpage.protocol !== 'http:' || webpage.protocol !== 'https:') {
+  if (webpage.protocol !== 'http:' && webpage.protocol !== 'https:') {
     response.webpage = 'http://' + response.webpage;
   }
 
