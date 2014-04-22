@@ -1,1 +1,1 @@
-alert('Alerting from app.js ;)');
+alert('alert from examples');
