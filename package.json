@@ -1,6 +1,6 @@
 {
   "name": "injetador",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reloads browser on changes and also injects stuff",
   "author": {
     "name": "Ciro S. Costa",
