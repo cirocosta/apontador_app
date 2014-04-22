@@ -11,7 +11,6 @@ var io = null;
 var answers = {};
 var args = process.argv.slice(2);
 
-
 if (args.length) {
   answers = require('./cli').fromArgs(args);
 } else {
@@ -22,11 +21,9 @@ if (args.length) {
 // Express //
 /////////////
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || answers.port);
 app.use(express.logger('dev'));
 app.use(express.compress());
-
-answers.port = app.get('port');
 
 app.use(proxyWebpage(answers));
 

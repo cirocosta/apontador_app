@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "Reloads browser on changes and also injects stuff",
   "author": {
-      "name": "Ciro S. Costa",
-      "email": "ciro9758@gmail.com",
-      "url": "https://github.com/cirocosta"
+    "name": "Ciro S. Costa",
+    "email": "ciro9758@gmail.com",
+    "url": "https://github.com/cirocosta"
   },
   "contributors": [
     {
@@ -22,7 +22,7 @@
     "node": ">=0.10"
   },
   "preferGlobal": true,
-  "directories":{
+  "directories": {
     "bin": "./bin"
   },
   "main": "src/app.js",

@@ -17,6 +17,11 @@ function getResponseFromUser () {
 
   console.log('');
 
+  response.port = prompt(ini + "Injetador's port:[3000] ".bold);
+
+  var port = +response.port;
+  if (!port) response.port = 3000;
+
   response.webpage = prompt(ini + 'Target webpage: '.bold);
   var webpage = url.parse(response.webpage);
 
@@ -107,6 +112,13 @@ function fromArgs (args) {
 
     case '--cssfile':
       answers.files.css = thisArg[1];
+      break;
+
+    case '--port':
+      var port = +thisArg[1];
+
+      if (!port) port = 3000;
+      answers.port = port;
       break;
 
     default:
