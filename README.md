@@ -2,7 +2,7 @@
 
 > Naively reloads browsers and injects stuff
 
-![Imgur](http://i.imgur.com/6fUHVC3.png)
+![Injetador Monster](http://i.imgur.com/6fUHVC3.png)
 
 ## Usage
 
@@ -22,7 +22,7 @@ $ injetador
 
 ### Reload multiple browsers on file changes
 
-![Injetador Working](http://i.imgur.com/tZTxYFK.gif)
+![Injetador Working](http://i.imgur.com/zmDOKNt.gif)
 
 Specify a *webpage* and a *directory*. Go to `localhost:3000` and then change a file from that *dir*. It will reload the page across all browsers at *localhost:3000*.
 
